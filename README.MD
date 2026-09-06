@@ -18,6 +18,15 @@ ln -s ./starship/starship.toml ~/.config/starship.toml
 ls -l ~/.config/starship.toml
 ```
 
+## tmux
+```
+cp ~/.config/tmux/tmux.conf ~/.config/tmux/tmux.conf.backup
+rm ~/.config/tmux/tmux.conf
+mkdir -p ~/.config/tmux
+ln -s ~/dotfiles/tmux/tmux.conf ~/.config/tmux/tmux.conf
+ls -l ~/.config/tmux/tmux.conf
+```
+
 ## wezterm
 ```
 # WSL

@@ -23,3 +23,4 @@ source $ZSH/oh-my-zsh.sh
 
 eval "$(starship init zsh)"
 
+alias wezterm='wezterm.exe'
