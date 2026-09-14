@@ -1,0 +1,33 @@
+*todotxt*
+
+==============================================================================
+Contents                                                          *todo-contents*
+
+Introduction .................................................... |todo-intro|
+Keymaps ......................................................... |todo-keymaps|
+Configuration ................................................... |todo-config|
+
+
+==============================================================================
+Introduction                                                        *todo-intro*
+
+todo.nvim is a simple TODO list for Neovim.
+
+It provides a floating TODO list that can be used to add, remove, and
+complete tasks.
+
+
+==============================================================================
+Keymaps                                                           *todo-keymaps*
+
+Inside the TODO list:
+
+	x		Toggle the selected TODO
+	a		Add a TODO
+	d		Delete the selected TODO
+
+
+==============================================================================
+Configuration                                                     *todo-config*
+
+Currently todo.nvim requires no configuration.
